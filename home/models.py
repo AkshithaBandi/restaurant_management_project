@@ -6,3 +6,8 @@ class MenuCategory(models.Model):
 
     def __str__(self):
         return self.name
+
+#in terminal
+
+python manage.py makemigrations home
+python manage.py migrate
